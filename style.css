@@ -43,7 +43,10 @@ position: relative;
   left: 25%;
   margin-bottom: 20px;
 }
-
+.box-container {
+  justify-content: center;
+  align-items: center;
+}
 .box {
   background-image: url('Screenshot_20250430-195904.png');
   background-position: center;
