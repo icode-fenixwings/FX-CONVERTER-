@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>>
+     <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-container">
+      <div class="box">
+       <h1>FX CONVERTER</h1>
+       <h2 class="myh2">Dollar to Naira</h2>
+       <input type="number" id='amount' class="searchfield" onblur="fxConverter()" onchange="fxConverter()" placeholder="Enter dollar amount">
+        <input type="number" id='examount' class="searchfield" placeholder="Converted Amount" readonly>
+        <div class="myh3btn-container">
+          <div class="myh3btn">
+           <h3 class="myh3">$ Rate-- N1600</h3>
+           </div>
+           <div class="container">
+           <p class="footer-text">&copy; <span id="year"></span> Adegbenga Okeowo. All Right Reserved</p>
+            </div>
+             </div>
+        </div>
+    </div>
+     <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+     </script>
+    <script src="script.js"></script>
+</body>
+</html>
