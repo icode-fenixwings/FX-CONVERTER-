@@ -34,6 +34,7 @@ h1 {
   text-align: center;
 }
 .myh3btn-container {
+  background-color: green;
 width: 312px;
 height: 222px;
 position: relative;
@@ -41,8 +42,8 @@ position: relative;
 .myh3btn {
   position: absolute;
   bottom: 0;
-  left: 40%;
-  margin-bottom: 30px;
+  left: 50%;
+  margin-bottom: 25px;
 }
 .fxcontainer {
   background-image: url('Screenshot_20250430-195904.png');
@@ -50,22 +51,23 @@ position: relative;
   background-size: cover;
   background-repeat: no repeat;
   overflow: hidden;
-  width: 320px;
+  width: 340px;
   height: 550px;
   border: 3px solid white;
-  padding: 0 15px;
+  padding: 0 10px;
   border-radius: 20px; 
-  margin: 20px;
+  margin: 15px;
 }
 .container { 
   font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
+  margin-bottom: 10px;
   position: absolute;
   bottom: 10px;
   left: 0;
   background-color: rgba(0,0,0,0.39);
   color: white;
-  width: 305px;
+  width: 280px;
   height: 40px;
 }
