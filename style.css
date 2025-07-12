@@ -50,19 +50,19 @@ position: relative;
   background-size: cover;
   background-repeat: no repeat;
   overflow: hidden;
-  width: 310px;
-  height: 500px;
+  width: 320px;
+  height: 550px;
   border: 3px solid white;
   padding: 0 15px;
   border-radius: 20px; 
-  margin: 25px;
+  margin: 20px;
 }
 .container { 
   font-size: 14px;
   font-weight: 500;
   padding-left: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   background-color: rgba(0,0,0,0.39);
   color: white;
