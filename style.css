@@ -1,7 +1,7 @@
 body { 
-  font-family: Sans-Serif,Comic Sans MS;
-  background-color: #7b6259;
-  margin: 20px 10px;
+  background-color: #7b6259 !important;
+  font-family: Sans-Serif,Comic Sans MS !important;
+  margin: 20px 10px !important;
 }
 .searchfield {
   font-size: 20px;
@@ -43,7 +43,7 @@ position: relative;
   left: 25%;
   margin-bottom: 20px;
 }
-.box {
+.fxcontainer {
   background-image: url('Screenshot_20250430-195904.png');
   background-position: center;
   background-size: cover;
@@ -54,6 +54,7 @@ position: relative;
   border: 3px solid white;
   padding: 0 15px;
   border-radius: 20px; 
+  margin: 25px;
 }
 .container { 
   font-size: 14px;
