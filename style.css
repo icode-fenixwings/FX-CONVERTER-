@@ -7,7 +7,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   padding-left: 15px;
-  width: 290px;
+  width: 310px;
   height: 40px;
   margin-bottom: 10px;
   border: 2px solid red;
@@ -15,7 +15,8 @@ body {
 h1 {
   color: white;
   text-align: center;
-  margin-bottom: 30px;
+    margin-top: 10px;
+  margin-bottom: 20px;
 }
 .myh2 {
   background-color: black;
@@ -36,16 +37,15 @@ h1 {
 }
 .myh3btn-container {
 background-color: green;
-margin-top: 80px;
+margin-top: 70px;
 width: 312px;
 height: 222px;
 position: relative;
 }
 .myh3btn {
   position: absolute;
-  top: 0;
-  left: 10px;
-  margin-bottom: 50px;
+  top: 20px;
+  left: 100px;
 }
 .fxcontainer {
   background-image: url('Screenshot_20250430-195904.png');
@@ -61,15 +61,15 @@ position: relative;
   margin: 15px;
 }
 .container { 
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   padding-left: 10px;
   margin-bottom: 10px;
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 20px;
+  left: 0;
   background-color: rgba(0,0,0,0.39);
   color: white;
-  width: 280px;
+  width: 300px;
   height: 40px;
 }
